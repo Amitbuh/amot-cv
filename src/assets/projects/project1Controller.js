@@ -5,6 +5,16 @@ import LogoExplainer from "../Rational_Design_Lab/Logo motion_1.mp4";
 import Poster1 from "../Rational_Design_Lab/A.Poster_Sacregicing 03-06.mp4";
 import Poster2 from "../Rational_Design_Lab/A.Poster_Parllal 03-06.mp4";
 import Webflow from "../Rational_Design_Lab/site video.mp4";
+
+import sketch1 from "../Rational_Design_Lab/Sketches/1sketch.png";
+import sketch2 from "../Rational_Design_Lab/Sketches/2sketch.png";
+import sketch3 from "../Rational_Design_Lab/Sketches/3sketch.png";
+import sketch4 from "../Rational_Design_Lab/Sketches/4sketch.png";
+import sketch5 from "../Rational_Design_Lab/Sketches/5 sketch.png";
+import sketch6 from "../Rational_Design_Lab/Sketches/6sketch.mp4";
+import sketch7 from "../Rational_Design_Lab/Sketches/7sketch.mp4";
+import sketch8 from "../Rational_Design_Lab/Sketches/8sketch.png";
+import sketch9 from "../Rational_Design_Lab/Sketches/9sketch.png";
 // Project 1 Controller - Academic Bridge
 // A Bridge Gap Between Academia and Society
 
@@ -60,10 +70,10 @@ export const PROJECT1_DATA = {
   ],
   // Used in SECTION 3 & 12: Gallery sections
   galleryImages: [
-    PROJECT1_IMAGES.gallery1,
-    PROJECT1_IMAGES.gallery2,
-    PROJECT1_IMAGES.gallery3,
-    PROJECT1_IMAGES.gallery4,
+    PROJECT1_IMAGES.sketch1,
+    PROJECT1_IMAGES.sketch2,
+    PROJECT1_IMAGES.sketch3,
+    PROJECT1_IMAGES.sketch4,
     PROJECT1_IMAGES.gallery5,
     PROJECT1_IMAGES.gallery6,
   ],

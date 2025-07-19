@@ -31,9 +31,9 @@ const ProfileSection = ({ profile }) => {
             onClick={handleProfileClick}
             style={{ cursor: 'pointer' }}
           />
-          <h2 className="text-[20px] font-normal text-[#161212] font-['Roboto'] pt-1">{name}</h2>
+          <h2 className="text-[20px] font-normal text-[#161212] font-['Roboto'] flex-grow pt-1">{name}</h2>
         </div>
-        <p className="text-[26px] font-bold text-[#161212] mb-8 flex-grow">
+        <p className="text-[20px] font-bold text-[#161212] flex-grow">
           {description}
         </p>
         <div className="mt-auto">
@@ -41,7 +41,7 @@ const ProfileSection = ({ profile }) => {
           <div className="flex items-center gap-2">
             <button
               onClick={handleCopyEmail}
-              className="text-[#161212] hover:text-[#161212]/80 transition-colors duration-200"
+              className="text-[#161212] hover:text-[#161212]/80 transition-colors flex-grow"
               title="Copy email to clipboard"
             >
               {copied ? (

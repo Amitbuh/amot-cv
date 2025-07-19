@@ -46,7 +46,7 @@ export const PROJECT3_DATA = {
   id: 3,
   title: "GONG MAGAZINE",
   subtitle: "System Design Project",
-  shortTitle: "GONG MAGAZINE | 202",
+  shortTitle: "GONG MAGAZINE | 2024",
   // Corresponds to SECTION 1 in the detail page view
   heroImage: PROJECT3_IMAGES.hero,
   thumbnailImage: PROJECT3_IMAGES.thumbnail,

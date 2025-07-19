@@ -9,6 +9,19 @@ import MainScenatio from "../Boilit/Main scenario-decision Making.png";
 import problem1 from "../Boilit/RoofView.webp";
 import problem2 from "../Boilit/RoofView2.webp";
 import Workflow from "../Boilit/WorkFlow_Video.mov";
+
+import sketch01 from "../Boilit/Sketches/1-Wireframe.jpg";
+import sketch02 from "../Boilit/Sketches/2-F1.png";
+import sketch03 from "../Boilit/Sketches/3-firstsketch.png";
+import sketch04 from "../Boilit/Sketches/4sketch.jpg";
+import sketch05 from "../Boilit/Sketches/5sketch.png";
+import sketch06 from "../Boilit/Sketches/6sketch.jpg";
+import sketch07 from "../Boilit/Sketches/7sketch.jpg";
+import sketch08 from "../Boilit/Sketches/8sketch.jpg";
+import sketch09 from "../Boilit/Sketches/9-sketch.jpg";
+import sketch10 from "../Boilit/Sketches/10-sketch.jpg";
+import sketch11 from "../Boilit/Sketches/11-sketch.jpg";
+import sketch12 from "../Boilit/Sketches/12-sketch.jpg";
 // Project 2 Controller - Boilit App
 // Smart Home Water System Management
 
@@ -167,7 +180,7 @@ export const PROJECT2_DATA = {
 
   // Used in SECTION 15: Gallery/Sketches Section
   sketches: [
-    PROJECT2_IMAGES.sketch1,
+    PROJECT2_IMAGES.sketch01,
     PROJECT2_IMAGES.sketch2,
     PROJECT2_IMAGES.sketch3,
     PROJECT2_IMAGES.sketch4,

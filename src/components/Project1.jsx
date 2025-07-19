@@ -196,14 +196,14 @@ const Project1 = () => {
           <div className='space-y-8 mb-20'>
             {/* Gallery grid content */}
             <div className='grid grid-cols-2 gap-8'>
-              <div className='aspect-[8/10] bg-gray-100 rounded-lg overflow-hidden shadow-lg'>
+              <div className='aspect-[8/10] bg-gray-100 overflow-hidden'>
                 <img
                   src={project.galleryImages[0]}
-                  alt='Gallery 1'
+                  alt='sketch1'
                   className='w-full h-full object-cover'
                 />
               </div>
-              <div className='aspect-[8/10] bg-gray-100 rounded-lg overflow-hidden shadow-lg'>
+              <div className='aspect-[8/10] bg-gray-100 rounded-lg overflow-hidden'>
                 <img
                   src={project.galleryImages[1]}
                   alt='Gallery 2'
@@ -214,7 +214,7 @@ const Project1 = () => {
 
             <div className='grid grid-cols-3 gap-8'>
               {[2, 3, 4].map((index) => (
-                <div key={index} className='aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden shadow-lg'>
+                <div key={index} className='aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden'>
                   <img
                     src={project.galleryImages[index]}
                     alt={`Gallery ${index + 1}`}
@@ -225,21 +225,21 @@ const Project1 = () => {
             </div>
 
             <div className='grid grid-cols-3 gap-8'>
-              <div className='aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden shadow-lg'>
+              <div className='aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden'>
                 <img
                   src={project.galleryImages[5]}
                   alt='Gallery 6'
                   className='w-full h-full object-cover'
                 />
               </div>
-              <div className='aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden shadow-lg'>
+              <div className='aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden'>
                 <img
                   src={project.galleryImages[0]}
                   alt='Gallery 7'
                   className='w-full h-full object-cover'
                 />
               </div>
-              <div className='aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden shadow-lg'>
+              <div className='aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden'>
                 <img
                   src={project.galleryImages[1]}
                   alt='Gallery 8'
@@ -249,14 +249,14 @@ const Project1 = () => {
             </div>
 
             <div className='grid grid-cols-2 gap-40'>
-              <div className='aspect-[8/10] bg-gray-100 rounded-lg overflow-hidden shadow-lg'>
+              <div className='aspect-[8/10] bg-gray-100 rounded-lg overflow-hidden'>
                 <img
                   src={project.galleryImages[2]}
                   alt='Gallery 9'
                   className='w-full h-full object-cover'
                 />
               </div>
-              <div className='aspect-[8/10] bg-gray-100 rounded-lg overflow-hidden shadow-lg'>
+              <div className='aspect-[8/10] bg-gray-100 rounded-lg overflow-hidden'>
                 <img
                   src={project.galleryImages[3]}
                   alt='Gallery 10'

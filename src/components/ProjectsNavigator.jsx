@@ -12,7 +12,7 @@ const ProjectsNavigator = ({ currentProjectId }) => {
           <h3 className="text-sm text-gray-500  tracking-wider font-medium mb-6">Thanks for watching, See more projects:</h3>
           <hr className="border-black" />
         </div>
-        <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide">
+        <div className="flex gap-6 overflow-x-auto pb-4 hide-scrollbar">
           {projects
             .filter(project => project.id !== currentProjectId)
             .map((project) => (
@@ -21,7 +21,7 @@ const ProjectsNavigator = ({ currentProjectId }) => {
                 to={`/project/${project.id}`}
                 className="group flex-shrink-0"
               >
-                <div className="w-62 h-52 bg-gray-100 overflow-hidden mb-3 shadow-sm relative group">
+                <div className="w-72 aspect-[4/2] bg-gray-100 overflow-hidden mb-3 shadow-sm relative group">
                   <img 
                     src={project.image} 
                     alt={project.alt}
