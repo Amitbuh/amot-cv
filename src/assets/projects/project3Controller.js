@@ -1,10 +1,10 @@
 import FirstView from "../Gong_Magazine/1 - FirstView.jpg";
-import MagaView1 from "../Gong_Magazine/2 - HoldMAgazine.png";
-import MagaView2 from "../Gong_Magazine/3 - SideofMagazinr.png";
-import MagaView3 from "../Gong_Magazine/4 MagazinPresent.png";
+import MagaView1 from "../Gong_Magazine/2 - HoldMAgazine.jpg";
+import MagaView2 from "../Gong_Magazine/3 - SideofMagazinr.jpg";
+import MagaView3 from "../Gong_Magazine/4 MagazinPresent.jpg";
 import WideView from "../Gong_Magazine/7 - Viewmagazine.jpg";
-import Grid1 from "../Gong_Magazine/GridOrchid.png";
-import Grid2 from "../Gong_Magazine/6 - GridContibuters.png";
+import Grid1 from "../Gong_Magazine/GridOrchid.jpg";
+import Grid2 from "../Gong_Magazine/6 - GridContibuters.jpg";
 // Project 3 Controller - Design System
 // System Design Project
 
